@@ -92,3 +92,4 @@ module.exports = {
   Login,
   azmon,
 };
+module.exports = bot;
