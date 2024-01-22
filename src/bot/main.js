@@ -94,3 +94,4 @@ bot.on(message("text"), async (ctx) => {
 bot.launch();
 
 console.log("Bot is Run");
+module.exports = bot;
