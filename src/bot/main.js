@@ -1,7 +1,7 @@
 const { message } = require("telegraf/filters");
-const bot = require("./start");
-const User = require("../FallahAcountSource/User");
-const { Login } = require("./User");
+const bot = require("./start.js");
+const User = require("../FallahAcountSource/User.js");
+const { Login } = require("./User.js");
 
 //Global Variable
 let isLogin = false;
