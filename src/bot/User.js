@@ -1,7 +1,7 @@
 //Mpdules
 const { message } = require("telegraf/filters");
-const User = require("../FallahAcountSource/User");
-const bot = require("./start");
+const User = require("../FallahAcountSource/User.js");
+const bot = require("./start.js");
 
 //Global Variables
 const emailRegex = /(\w.+)@(\w+).(\w+)/g; // Fallah Site email Regex Pattern
